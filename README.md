@@ -16,12 +16,19 @@ following:
 1. Acceptance Criteria
 a. List the key acceptance criteria required for this form to be
 considered functioning correctly.
+1 - Valid information must be shown after submit button
+2 - Name, email and current address must not be blank
+3 - Email field must validate if is a valid email
+4 - Clicking with invalid date must highlight fields with invalid data
 
-2. Essential Test Cases
+3. Essential Test Cases
 a. List the minimum set of important test cases, including positive,
 negative, and basic validation scenarios.
+1 - Sending valid information and expect it is shown after the submit button
+2 - Sending blank form and expect error
+3 - Sending invalid email and expect error on email field
 
-3. Risks / Edge Cases
+5. Risks / Edge Cases
 a. Identify potential risks, edge cases, or areas where defects
 commonly appear.
 
